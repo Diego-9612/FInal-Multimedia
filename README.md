@@ -165,4 +165,4 @@ VITE_API_URL=http://192.168.1.100:3001
 - Autor: Gustavo Willyn Sánchez Rodríguez — `guswillsan@gmail.com`
 - Licencia: ISC (verifica archivos de licencia si aplica).
 
-
+-Diego Guerrero - Nathalia Cabrera Revelo 
