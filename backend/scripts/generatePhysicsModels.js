@@ -3,8 +3,8 @@ const fs = require('fs')
 const path = require('path')
 
 // Ruta de entrada y salida
-const inputPath = path.join(__dirname, '../data/toy_car_blocks2.json')
-const outputPath = path.join(__dirname, '../data/precisePhysicsModels2.json');
+const inputPath = path.join(__dirname, '../data/toy_car_blocks3.json')
+const outputPath = path.join(__dirname, '../data/precisePhysicsModels3.json');
 
 // Leer archivo JSON original
 fs.readFile(inputPath, 'utf8', (err, data) => {

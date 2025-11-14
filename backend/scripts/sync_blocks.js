@@ -6,7 +6,7 @@ const fs = require('fs');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
 // Archivos JSON a procesar
-const filesToSend = ['toy_car_blocks3.json', 'coin3.json'];
+const filesToSend = ['toy_car_blocks1.json'];
 
 // Leer URL desde .env
 const API_URL = process.env.API_URL;

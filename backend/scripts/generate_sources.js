@@ -3,8 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const modelsPath = path.join('D:/UCC/React/PortafolioUCC/Projecto_final_v1/game-project/public/models/toycar2');
-const outputPath = path.join(__dirname, '../data/sources_2.js');
+const modelsPath = path.join('../public/models/toycar2');
+const outputPath = path.join(__dirname, '../data/sources_3.js');
 
 if (!fs.existsSync(modelsPath)) {
     console.error('❌ El directorio no existe:', modelsPath);
