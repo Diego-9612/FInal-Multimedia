@@ -46,7 +46,8 @@ const App = () => {
     const experience = new Experience(canvasRef.current)
     experienceRef.current = experience
 
-    // Activar loader mientras se cargan recursos
+
+    //Activar loader minetras se cargan los recuersos
     setLoading(true)
 
     const handleProgress = (e) => {
@@ -74,7 +75,7 @@ const App = () => {
     const { name, value } = e.target
     setForm((prev) => ({ ...prev, [name]: value }))
   }
-
+// Implementacion de hanlAthsuccess
   const handleAuthSuccess = (data) => {
     const receivedUser = data.user || data.profile || { email: form.email }
     const receivedToken = data.token || data.access_token || data.jwt
